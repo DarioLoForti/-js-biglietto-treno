@@ -29,3 +29,6 @@ console.log(prezzo_biglietto);
 
 let prezzo = prezzo_biglietto.toFixed(2);
 
+// mostro a video il prezzo finale
+
+document.getElementById("prezzo-biglietto").innerHTML = prezzo + "€";
