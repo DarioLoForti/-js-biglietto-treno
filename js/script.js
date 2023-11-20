@@ -23,7 +23,6 @@ else if(eta >= 65) {
     prezzo_biglietto -= prezzo_biglietto * 0.40; 
 }
 
-else(eta > 18 && eta < 65)
 
 console.log(prezzo_biglietto);
 
