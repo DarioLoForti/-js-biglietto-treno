@@ -32,3 +32,22 @@ let prezzo = prezzo_biglietto.toFixed(2);
 // mostro a video il prezzo finale
 
 document.getElementById("prezzo-biglietto").innerHTML = prezzo + "€";
+
+
+// BONUS
+
+let nome = prompt("inserisci il tuo nome")
+
+let cognome = prompt("iserisco il tuo cognome")
+
+let partenza = prompt("inserisci città di partenza")
+
+let arrivo = prompt("isercisci città di arrivo")
+
+document.getElementById("nome").innerHTML = nome;
+
+document.getElementById("cognome").innerHTML = cognome;
+
+document.getElementById("partenza").innerHTML = partenza;
+
+document.getElementById("arrivo").innerHTML = arrivo;
